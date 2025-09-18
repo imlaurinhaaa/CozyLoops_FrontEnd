@@ -39,6 +39,7 @@ export default function Home() {
                         social={inspiracao.social}
                         url={inspiracao.url}
                         about={inspiracao.about}
+                        video={inspiracao.video}
                     />
                 ))}
             </div>

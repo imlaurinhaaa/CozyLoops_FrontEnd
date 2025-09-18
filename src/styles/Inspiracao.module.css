@@ -8,10 +8,12 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
+
 .inspiration:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
+
 .inspirationName {
     font-size: 1.2rem;
     font-weight: 600;
@@ -22,4 +24,132 @@
 .inspirationSocial {
     font-size: 1rem;
     color: #7f8c8d;
+}
+
+.buttonModal {
+    background: linear-gradient(135deg, #fe6eaf 0%, #ff4081 100%);
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(254, 110, 175, 0.3);
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: #fff;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    position: relative;    
+}
+
+.modalVideoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalVideo {
+    width: 100%;
+    max-width: 400px;
+    height: 30rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modalTextContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.closeModalButton {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+
+.modalIcon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.modalTitle {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    font-family: 'Comic Relief', system-ui;
+}
+
+.modalText {
+    color: #7f8c8d;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.modalTextLast {
+    color: #7f8c8d;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 0 2rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.videoModal {
+    margin-top: 1rem;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .modalContent {
+        flex-direction: column;
+        max-width: 90%;
+        gap: 1rem;
+    }
+    
+    .modalTextContainer {
+        padding-left: 0;
+    }
+    
+    .modalVideo {
+        max-width: 100%;
+    }
 }
