@@ -31,7 +31,7 @@ export default function Home() {
                 </p>
             </div>
             <div className={styles.inspirationList}>
-                {inspirationsData.map((inspiracao, index) => (
+                {inspirationsData.slice(0, 5).map((inspiracao, index) => (
                     <Inspiracao
                         key={index}
                         name={inspiracao.name}
@@ -47,7 +47,7 @@ export default function Home() {
                 <p className={styles.text}> Descubra o mundo do crochê com nossos tutoriais e dicas. Aprenda desde os pontos básicos até técnicas avançadas para criar peças incríveis. Se você é iniciante ou já tem experiência, temos algo para todos!</p>
             </div>
             <div className={styles.videoList}>
-                {videosData.map((video, index) => (
+                {videosData.slice(0, 6).map((video, index) => (
                     <Video
                         key={index}
                         src={video.src}

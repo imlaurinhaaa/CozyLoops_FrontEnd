@@ -3,6 +3,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Link from "next/link";
+import { Search } from 'lucide-react';
 import styles from "./Produtos.module.css";
 import Header from "../../components/Header";
 import Card from "../../components/Card";
@@ -37,10 +38,13 @@ export default function Produtos() {
                 <h1 className={styles.title}>Nossos Produtos</h1>
                 <p className={styles.text}>Explore nossa coleção de produtos feitos à mão com amor e dedicação. Cada peça é única e feita com materiais de alta qualidade para garantir durabilidade e beleza. Encontre o presente perfeito ou algo especial para você!</p>
                 <div className={styles.search}>
-                    <input className={styles.input}
-                        type="text" value={search}
-                        onChange={(e) => setSearch(e.target.value)}
-                        placeholder="Buscar categorias..." />
+                    <div className={styles.inputContainer}>
+                        <Search className={styles.searchIcon} size={20} />
+                        <input className={styles.input}
+                            type="text" value={search}
+                            onChange={(e) => setSearch(e.target.value)}
+                            placeholder="Buscar categorias..." />
+                    </div>
                     <button className={styles.button}
                         onClick={async () => {
                             try {
