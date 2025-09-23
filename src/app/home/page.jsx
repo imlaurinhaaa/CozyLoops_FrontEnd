@@ -3,7 +3,6 @@ import styles from './Home.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import Header from '../../components/Header';
-import Footer from '../../components/Footer';
 import { inspirationsData } from '../../data/inspirations';
 import { videosData } from '../../data/videos';
 import Inspiracao from '../../components/Inspiracao';
@@ -57,7 +56,6 @@ export default function Home() {
                     />  
                 ))}
             </div>
-            <Footer />
         </div>
     );
 }

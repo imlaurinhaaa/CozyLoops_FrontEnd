@@ -4,13 +4,32 @@
     align-items: center;
 }
 
+.productCard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 3rem;
+}
+
+.back {
+    cursor: pointer;
+    margin-top: 2.5rem;
+    height: auto;
+    width: 40px;
+    transition: transform 0.2s;
+}
+
+.back:hover {
+    transform: scale(1.2);
+}
+
 .content {
     margin: 2rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
-    max-width: 900px;
+    max-width: 1000px;
     background: #fff;
     border-radius: 18px;
     box-shadow: 0 4px 24px 0 #ff24a054;
@@ -28,7 +47,7 @@
 
 .product {
     text-align: left;
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -55,7 +74,7 @@
 }
 
 .productName {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #ff24a0;
     font-family: 'Comic Relief', system-ui;
@@ -94,4 +113,14 @@
 .textItem {
     font-family: "Poppins", sans-serif;
     color: #000000;
+}
+
+.productSuggestion {
+    padding-top: 1rem;
+    border-top: 1px solid #dddddd4f;
+    background-color: #ffbde25e;
+    padding: 1rem;
+    list-style: none;
+    border-radius: 12px;
+    margin-top: 1rem;
 }

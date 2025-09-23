@@ -5,7 +5,6 @@ import axios from "axios";
 import Link from "next/link";
 import styles from "./Produtos.module.css";
 import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 import Card from "../../components/Card";
 
 export default function Produtos() {
@@ -67,7 +66,6 @@ export default function Produtos() {
                     ))}
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }

@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
+import { Instagram, Github, Mail, Linkedin } from 'lucide-react';
 import styles from './Sobre.module.css';
 import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import CardSocial from '../../components/CardSocial';
 
 export default function Sobre() {
     return (
@@ -11,10 +12,10 @@ export default function Sobre() {
             <div className={styles.introduction}>
                 <div className={styles.me}>
                     <Image 
-                        src="/images/Laura.jpeg"
+                        src="/images/introduction.png"
                         alt="Laura Developer"
-                        width={300}
-                        height={300}
+                        width={600}
+                        height={600}
                         className={styles.image}
                     />
                 </div>
@@ -25,7 +26,16 @@ export default function Sobre() {
                     <p className={styles.text}>Este projeto foi desenvolvido pelo Docente Felipe Silva Santos , unindo minhas duas paixões: tecnologia e crochê. Espero que você goste do site e encontre inspiração para suas próprias criações!</p>
                 </div>
             </div>
-            <Footer />
+            <div className={styles.contact}>
+                <h2 className={styles.title}>Onde me encontrar</h2>
+                <div className={styles.socialList}>
+                    <CardSocial
+                                            icon="instagram"
+                        name="Instagram"
+                        url="https://www.instagram.com/lauraviolla/"
+                    />
+                    </div>
+            </div>
         </div>
     );
 }

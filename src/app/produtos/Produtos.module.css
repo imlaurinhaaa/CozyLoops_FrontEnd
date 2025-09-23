@@ -40,10 +40,10 @@
 .input {
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
     width: 300px;
     margin-right: 10px;
-    border: 1px solid #ff24a0;
+    border: 2px solid #ff24a0;
 }
 
 .button {
