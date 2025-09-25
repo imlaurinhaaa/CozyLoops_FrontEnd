@@ -26,8 +26,7 @@ export default function Inspiracoes() {
             <div className={styles.content}>
                 <h1 className={styles.title}>Inspirações</h1>
                 <p className={styles.text}>
-                    Explore algumas ideias criativas para suas peças e aprenda como aplicá-las
-                    em seus projetos com ajuda de nossos tutoriais e influenciadores que entendem do assunto.
+                    Explore ideias criativas para suas próprias peças e descubra como aplicá-las em seus projetos com o apoio de nossos tutoriais detalhados e de influenciadores experientes, que compartilham dicas e técnicas para inspirar sua criatividade.
                 </p>
                 <Link href="/produtos" className={styles.button}>
                     Coloque em prática com nossos produtos

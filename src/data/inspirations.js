@@ -46,42 +46,42 @@ export const inspirationsData = [
         social: "@croche.ro_",
         url: "https://www.instagram.com/croche.ro_/",
         about: "A Rô compartilha peças clássicas e utilitárias, como sousplats, caminhos de mesa e mantas. O perfil transmite muito aconchego e simplicidade, valorizando o crochê tradicional, mas sempre com uma pegada contemporânea de cores e acabamentos.",
-        video: "/videos/anaPaula.mp4"
+        video: "/videos/croche.ro.mp4"
     },
         {
         name: "Luana Jaworski",
         social: "@luanajaworski",
         url: "https://www.instagram.com/luanajaworski/",
         about: "Ela se destaca por unir moda e crochê. Posta muitos tutoriais de acessórios — brincos, bolsas, tops e detalhes fashion. Seu conteúdo é acessível, cheio de DIY rápidos, o que atrai principalmente jovens que querem começar a usar o crochê no dia a dia.",
-        video: "/videos/luanaJaworski.mp4"
+        video: "/videos/luanajaworski.mp4"
     },
         {
         name: "Marie Castro",
         social: "@mariecastrodiy",
         url: "https://www.instagram.com/mariecastrodiy/",
         about: "Marie mistura crochê com outras técnicas artesanais, criando um feed criativo e diverso. Além de peças de moda, traz ideias para casa e presentes. O perfil tem bastante foco em inspirar e incentivar o “faça você mesmo” como estilo de vida.",
-        video: "/videos/marieCastro.mp4"
+        video: "/videos/mariecastrodiy.mp4"
     },
         {
         name: "Samuel Ramos",
         social: "@blogdocroche",
         url: "https://www.instagram.com/blogdocroche/",
         about: "Samuel é um dos homens mais reconhecidos no cenário do crochê. Ele compartilha gráficos, dicas, lives e inspirações que ajudam iniciantes e avançados. O perfil funciona quase como uma comunidade, com bastante interação e troca de ideias.",
-        video: "/videos/blogDoCroche.mp4"
+        video: "/videos/blogdocroche.mp4"
     },
         {
         name: "Cris Vallim",
         social: "@encantadacrochetaria",
         url: "https://www.instagram.com/encantadacrochetaria/",
         about: "O perfil é todo delicado e aconchegante. Cris posta peças para decoração e moda, mas sempre com uma estética romântica, cheia de detalhes. Também valoriza bastante a apresentação das peças, com fotos bem produzidas e conteúdo inspirador.",
-        video: "/videos/encantadaCrochetaria.mp4"
+        video: "/videos/encantadacrochetaria.mp4"
     },
         {
         name: "Mary Croche",
         social: "@marycrochee",
         url: "https://www.instagram.com/marycrochee/",
         about: "Mary é bem conhecida na comunidade, pois oferece cursos, gráficos e dicas práticas. Além das postagens no feed, ela cria bastante conteúdo educativo nos stories, ajudando quem está começando a transformar o hobby em fonte de renda.",
-        video: "/videos/maryCroche.mp4"
+        video: "/videos/marycrochee.mp4"
     },
 
 ]

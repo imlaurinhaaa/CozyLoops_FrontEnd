@@ -25,8 +25,6 @@ export default function Sobre() {
                     <p className={styles.text}>Este projeto foi desenvolvido pelo Docente Felipe Silva Santos , unindo minhas duas paixões: tecnologia e crochê. Espero que você goste do site e encontre inspiração para suas próprias criações!</p>
                 </div>
             </div>
-            <div className={styles.contact}>
-                <h2 className={styles.title}>Onde me encontrar</h2>
                 <div className={styles.socialList}>
                     <CardSocial
                         icon="instagram"
@@ -36,7 +34,7 @@ export default function Sobre() {
                     <CardSocial
                         icon="linkedin"
                         name="Linkedin"
-                        url="www.linkedin.com/in/laura-ferreira-violla-a526b12b1"
+                        url="https://www.linkedin.com/in/laura-ferreira-violla-a526b12b1/"
                     />
                     <CardSocial
                         icon="github"
@@ -45,11 +43,15 @@ export default function Sobre() {
                     />
                     <CardSocial
                         icon="mail"
-                        name="Email"
+                        name="Email Pessoal"
+                        url="mailto:lferreiraviolla@gmail.com"
+                    />
+                    <CardSocial
+                        icon="laptop"
+                        name="Email Escolar"
                         url="mailto:laura.violla@aluno.senai.br"
                     />
                 </div>
-            </div>
         </div>
     );
 }

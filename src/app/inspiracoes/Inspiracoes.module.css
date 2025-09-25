@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 95%;
 }
 
 .title {
@@ -39,10 +40,15 @@
     font-size: 1rem;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
     box-shadow: 0 4px 15px rgba(254, 110, 175, 0.3);
     text-decoration: none;
     margin-top: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #fe6eaf 0%, #ff4081 100%);
+    transform: translateY(-2px);
 }
 
 .influencers {
@@ -66,7 +72,7 @@
     gap: 20px;
     justify-content: center;
     margin-top: 1rem;
-    width: 100%;
+    width: 88%;
     padding: 2rem;
 }
 
@@ -104,7 +110,6 @@
     align-items: center;
     margin-top: 3rem;
     text-align: center;
-    width: 90%;
     gap: 10px;
 }
 
@@ -115,4 +120,9 @@
     justify-content: center;
     margin-top: 1rem;
     gap: 25px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }

@@ -36,7 +36,7 @@ export default function Produtos() {
             <Header />
             <div className={styles.content}>
                 <h1 className={styles.title}>Nossos Produtos</h1>
-                <p className={styles.text}>Explore nossa coleção de produtos feitos à mão com amor e dedicação. Cada peça é única e feita com materiais de alta qualidade para garantir durabilidade e beleza. Encontre o presente perfeito ou algo especial para você!</p>
+                <p className={styles.text}>Explore nossa coleção de peças artesanais criadas por talentosos artesãos e criadores, pensadas para inspirar sua própria criatividade. Cada obra traz detalhes únicos, dedicação e personalidade, servindo como referência para suas ideias e projetos. Inspire-se com diferentes estilos, técnicas e combinações de cores, e transforme essa inspiração em criações únicas, cheias de significado e autenticidade.</p>
                 <div className={styles.search}>
                     <div className={styles.inputContainer}>
                         <Search className={styles.searchIcon} size={20} />

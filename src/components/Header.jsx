@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Header.module.css";
+import { House, ShoppingBag, User, Lightbulb } from 'lucide-react';
 import Link from "next/link";
 import Image from "next/image";
 
@@ -9,12 +10,24 @@ export default function Header() {
         <h1 className={styles.title}>Cozy Loops</h1>
         <nav>
             <ul className={styles.menu}>
-                <Link href="/home" className={styles.menuItem}>Home</Link>
-                <Link href="/produtos" className={styles.menuItem}>Produtos</Link>
-                <Link href="/sobre" className={styles.menuItem}>Sobre</Link>
-                <Link href="/inspiracoes" className={styles.menuItem}>Inspirações</Link>
+                <Link href="/home" className={styles.menuItem}>
+                    <House size={16} />
+                    Home
+                </Link>
+                <Link href="/produtos" className={styles.menuItem}>
+                    <ShoppingBag size={16} />
+                    Produtos
+                </Link>
+                <Link href="/sobre" className={styles.menuItem}>
+                    <User size={16} />
+                    Sobre
+                </Link>
+                <Link href="/inspiracoes" className={styles.menuItem}>
+                    <Lightbulb size={16} />
+                    Inspirações
+                </Link>
             </ul>
         </nav>
     </header>
     );
-}
+}       
