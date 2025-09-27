@@ -27,6 +27,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="pt-BR" className={inter.variable}>
+            <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </head>
             <body className={inter.className}>
                 {children}
             </body>

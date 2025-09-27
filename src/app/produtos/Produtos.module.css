@@ -57,7 +57,7 @@
     border-radius: 25px;
     width: 45rem;
     font-size: 1rem;
-    font-family: "Comic Relief", system-ui;
+    font-family: "Poppins", sans-serif;
     background: #ffffff;
     outline: none;
     transition: all 0.3s ease;
@@ -68,17 +68,6 @@
 .input::placeholder {
     color: #aaa;
     font-style: italic;
-}
-
-.input:focus {
-    border-color: #fe6eaf;
-    box-shadow: 0 6px 20px rgba(255, 36, 160, 0.2);
-    transform: translateY(-2px);
-}
-
-.input:hover {
-    border-color: #fe6eaf;
-    box-shadow: 0 5px 18px rgba(255, 36, 160, 0.15);
 }
 
 .button {

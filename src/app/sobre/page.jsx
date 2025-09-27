@@ -13,8 +13,8 @@ export default function Sobre() {
                     <Image
                         src="/images/laura.png"
                         alt="Laura Developer"
-                        width={550}
-                        height={550}
+                        width={500}
+                        height={500}
                         className={styles.image}
                     />
                 </div>

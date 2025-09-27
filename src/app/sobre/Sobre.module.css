@@ -10,7 +10,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 10rem;
 }
 
 .meSection {
@@ -26,11 +25,11 @@
 
 .socialList {
     display: flex;
-    margin-top: 1rem;
-    gap: 5rem;
+    gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 .title {
