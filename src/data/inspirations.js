@@ -11,7 +11,7 @@ export const inspirationsData = [
         social: "@porsimonecarvalho",
         url: "https://www.instagram.com/porsimonecarvalho/",
         about: "Simone é referência em crochê moderno, trazendo sempre novidades e técnicas inovadoras para a comunidade.",
-        video: "/videos/simoneCarvalho.mp4"
+        video: "/videos/porsimonecarvalho.mp4"
     },
     {
         name: "Tainá Macedo",

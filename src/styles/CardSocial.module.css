@@ -71,3 +71,12 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(255, 36, 160, 0.3);
 }
+
+@media (min-width: 1024px) {
+    .card {
+        max-width: 200px;
+    }
+    .link {
+        max-width: 160px;
+    }
+}

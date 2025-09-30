@@ -98,3 +98,13 @@
     gap: 25px;
     width: 90%;
 }
+
+@media (min-width: 1024px) {
+    .content {
+        width: 100%;
+    }
+    .productsList {
+        width: 100%;
+        gap: 2rem;
+    }
+}

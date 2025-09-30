@@ -26,7 +26,7 @@
 .socialList {
     display: flex;
     gap: 1rem;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     width: 100%;
     margin-bottom: 2rem;
@@ -43,4 +43,13 @@
     font-size: 1rem;
     color: #000000;
     text-align: right;
+}
+
+@media (min-width: 1024px) {
+    .introduction {
+        width: 95%;
+    }
+    .socialList {
+        width: 80%;
+    }
 }

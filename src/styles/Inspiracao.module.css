@@ -136,20 +136,3 @@
     height: auto;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    .modalContent {
-        flex-direction: column;
-        max-width: 90%;
-        gap: 1rem;
-    }
-    
-    .modalTextContainer {
-        padding-left: 0;
-    }
-    
-    .modalVideo {
-        max-width: 100%;
-    }
-}

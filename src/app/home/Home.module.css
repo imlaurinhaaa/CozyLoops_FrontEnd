@@ -98,3 +98,34 @@
     color: #000000;
     text-align: center;
 }
+
+/* Responsividade para telas de 1024px */
+@media screen and ( min-width: 1024px) {
+    .banner {
+        margin-top: 3rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .text {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .inspirationList {
+        width: 95%;
+        padding: 1.5rem;
+        gap: 3rem;
+    }
+
+    .videoList {
+        width: 95%;
+        gap: 3rem;
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+    }
+
+}
+
