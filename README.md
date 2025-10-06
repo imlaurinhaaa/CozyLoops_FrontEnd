@@ -165,7 +165,7 @@ CozyLoops_FrontEnd/
 
 ---
 
-## 👥 Autores
+## 👥 Autora
 
 - **Laura** - [imlaurinhaaa](https://github.com/imlaurinhaaa)
 
