@@ -66,6 +66,7 @@ cd CozyLoops_FrontEnd
 git clone https://github.com/imlaurinhaaa/CozyLoops_BackEnd.git
 cd CozyLoops_BackEnd
 ```
+> Vá para o repositório de Back e crie .env e baixe as dependências primeiro!
 
 ### 2. Instalar Dependências
 
