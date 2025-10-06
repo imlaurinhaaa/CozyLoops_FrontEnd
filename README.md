@@ -42,10 +42,47 @@ O **Cozy Loops** foi desenvolvido para reunir, em um só lugar, tudo o que quem 
 
 ---
 
-### 🖥️ Front-end (interface do site)
+### 🖥️ Front-end: Como acessar?
 
 1. **Clonar o repositório do front-end**  
    Abra o terminal e digite:  
    ```bash
    git clone [https://github.com/seu-usuario/cozy-loops-frontend.git](https://github.com/imlaurinhaaa/CozyLoops_FrontEnd.git)
    cd CozyLoops_FrontEnd
+
+   ### 🖥️ Como acessar o projeto (Front-end e Back-end)
+
+1. **Clonar o repositório do Front-end**  
+   Abra o terminal e execute:  
+   ```bash
+   git clone https://github.com/imlaurinhaaa/CozyLoops_FrontEnd.git
+   cd CozyLoops_FrontEnd
+Clonar o repositório do Back-end
+Em outro diretório (ou em uma nova aba do terminal), execute:
+
+bash
+Copiar código
+git clone https://github.com/imlaurinhaaa/CozyLoops_BackEnd.git
+cd CozyLoops_BackEnd
+Instalar as dependências
+Em cada projeto (front-end e back-end), rode o comando:
+
+bash
+Copiar código
+npm install
+Iniciar o Back-end
+Antes de iniciar o front-end, é necessário rodar o servidor do back:
+
+bash
+Copiar código
+npm start
+O back-end será executado na porta 3000.
+
+Iniciar o Front-end
+Com o back-end em execução, abra outro terminal e vá até o diretório do front-end:
+
+bash
+Copiar código
+cd CozyLoops_FrontEnd
+npm start
+O front-end será executado na porta 3001.
