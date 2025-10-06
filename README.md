@@ -74,7 +74,15 @@ Em ambos os projetos, execute:
 npm install
 ```
 
-### 3. Executar o Projeto
+### 3. Configurar Variáveis de Ambiente
+
+**Criar arquivo .env na raiz do projeto frontend:**
+```env
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+NEXT_PUBLIC_UPLOADS_URL=http://localhost:3000/uploads
+```
+
+### 4. Executar o Projeto
 
 **Primeiro, inicie o Backend:**
 ```bash
@@ -90,7 +98,7 @@ npm run dev
 ```
 > O frontend será executado na porta 3001
 
-### 4. Acessar a Aplicação
+### 5. Acessar a Aplicação
 
 Abra seu navegador e acesse: `http://localhost:3001`
 
