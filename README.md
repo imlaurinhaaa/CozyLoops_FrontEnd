@@ -50,7 +50,7 @@ O **Cozy Loops** reúne em um só lugar tudo o que você precisa para seu mundo 
 
 ### Pré-requisitos
 - Node.js (versão 16 ou superior)
-- npm ou yarn
+- npm
 - Git
 
 ### 1. Clonar os Repositórios
