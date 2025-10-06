@@ -1,88 +1,174 @@
 # 🧶 Cozy Loops
 
-O **Cozy Loops** é um site feito para amantes do crochê – desde quem tem vontade de começar até quem já pensa em transformar essa paixão em uma fonte de renda.  
+O **Cozy Loops** é uma plataforma web dedicada aos amantes do crochê – desde iniciantes que desejam aprender até artesãos que querem transformar sua paixão em fonte de renda.
+
 Nosso objetivo é criar um espaço acolhedor e inspirador para aprender, praticar e empreender com crochê.
 
 ---
 
-## 🌟 Descrição do Projeto
+## 🌟 Sobre o Projeto
 
-O **Cozy Loops** foi desenvolvido para reunir, em um só lugar, tudo o que quem gosta de crochê precisa:  
-- **Aprendizado:** vídeos passo a passo que ensinam desde os pontos básicos até técnicas mais avançadas.  
-- **Inspiração:** perfis no Instagram de artesãos talentosos para motivar e trazer novas ideias.  
-- **Recursos:** indicações de produtos e ideais para confeccionar peças de qualidade.  
-- **Dicas de Negócio:** orientações para quem deseja vender suas criações e transformar o crochê em renda extra.  
+O **Cozy Loops** reúne em um só lugar tudo o que você precisa para seu mundo do crochê:
+
+- **📚 Aprendizado:** Vídeos tutoriais passo a passo, desde pontos básicos até técnicas avançadas
+- **✨ Inspiração:** Perfis de artesãos talentosos do Instagram para motivar e trazer novas ideias  
+- **🛍️ Recursos:** Indicações de produtos e materiais para confeccionar peças de qualidade
+- **💼 Empreendedorismo:** Orientações para transformar o crochê em renda extra
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- 📺 **Seção de Vídeos:** tutoriais organizados por nível de dificuldade.  
-- 📸 **Galeria de Perfis Inspiradores:** artesãos do Instagram para seguir e aprender.  
-- 🛍️ **Produtos Recomendados:** materiais e ferramentas úteis para a prática do crochê.  
-- 💡 **Dicas de Vendas:** estratégias para vendas do produto.  
+- 📺 **Tutoriais em Vídeo:** Conteúdo organizado por nível de dificuldade
+- 📸 **Galeria de Inspirações:** Artesãos do Instagram para seguir e se inspirar
+- � **Produtos Recomendados:** Materiais e ferramentas essenciais para crochê
+- 💡 **Dicas de Vendas:** Estratégias para monetizar suas criações
 
 ---
 
-### Front-end
-- **Next.js (15.5.2)** → framework para React, usado no desenvolvimento do front-end.  
-- **React (19.1.0)** → biblioteca para criação de interfaces.  
-- **React DOM (19.1.0)** → renderização de componentes React na web.  
-- **Lucide React (0.544.0)** → ícones modernos e personalizáveis para React.  
-- **Axios (1.11.0)** → cliente HTTP para integração com APIs.  
+## 🛠️ Tecnologias Utilizadas
 
-### Back-end
-- **Node.js** → ambiente de execução do back-end.  
-- **Express (5.1.0)** → framework para criação de rotas e APIs REST.  
-- **CORS (2.8.5)** → controle de acessos entre diferentes domínios.  
-- **Dotenv (17.2.2)** → gerenciamento de variáveis de ambiente.  
-- **Multer (2.0.2)** → upload e tratamento de arquivos.  
-- **Nodemon (3.1.10)** → reinicialização automática do servidor durante o desenvolvimento.  
-- **pg (8.16.3)** → cliente PostgreSQL para integração com banco de dados.
+### Frontend
+- **Next.js 15.5.2** - Framework React para desenvolvimento web moderno
+- **React 19.1.0** - Biblioteca para criação de interfaces de usuário
+- **React DOM 19.1.0** - Renderização de componentes React no navegador
+- **Lucide React 0.544.0** - Biblioteca de ícones modernos e personalizáveis
+- **Axios 1.11.0** - Cliente HTTP para integração com APIs
+
+### Backend
+- **Node.js** - Ambiente de execução JavaScript no servidor
+- **Express 5.1.0** - Framework web para criação de APIs REST
+- **CORS 2.8.5** - Middleware para controle de acesso entre domínios
+- **Dotenv 17.2.2** - Gerenciamento de variáveis de ambiente
+- **Multer 2.0.2** - Middleware para upload de arquivos
+- **Nodemon 3.1.10** - Reinicialização automática durante desenvolvimento
+- **PostgreSQL (pg 8.16.3)** - Banco de dados relacional
 
 ---
 
-### 🖥️ Front-end: Como acessar?
+## � Como Executar o Projeto
 
-1. **Clonar o repositório do front-end**  
-   Abra o terminal e digite:  
-   ```bash
-   git clone [https://github.com/seu-usuario/cozy-loops-frontend.git](https://github.com/imlaurinhaaa/CozyLoops_FrontEnd.git)
-   cd CozyLoops_FrontEnd
+### Pré-requisitos
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+- Git
 
-   ### 🖥️ Como acessar o projeto (Front-end e Back-end)
+### 1. Clonar os Repositórios
 
-1. **Clonar o repositório do Front-end**  
-   Abra o terminal e execute:  
-   ```bash
-   git clone https://github.com/imlaurinhaaa/CozyLoops_FrontEnd.git
-   cd CozyLoops_FrontEnd
-Clonar o repositório do Back-end
-Em outro diretório (ou em uma nova aba do terminal), execute:
+**Frontend:**
+```bash
+git clone https://github.com/imlaurinhaaa/CozyLoops_FrontEnd.git
+cd CozyLoops_FrontEnd
+```
 
-bash
-Copiar código
+**Backend (em outro diretório):**
+```bash
 git clone https://github.com/imlaurinhaaa/CozyLoops_BackEnd.git
 cd CozyLoops_BackEnd
-Instalar as dependências
-Em cada projeto (front-end e back-end), rode o comando:
+```
 
-bash
-Copiar código
+### 2. Instalar Dependências
+
+Em ambos os projetos, execute:
+```bash
 npm install
-Iniciar o Back-end
-Antes de iniciar o front-end, é necessário rodar o servidor do back:
+```
 
-bash
-Copiar código
-npm start
-O back-end será executado na porta 3000.
+### 3. Executar o Projeto
 
-Iniciar o Front-end
-Com o back-end em execução, abra outro terminal e vá até o diretório do front-end:
+**Primeiro, inicie o Backend:**
+```bash
+cd CozyLoops_BackEnd
+npm run dev
+```
+> O backend será executado na porta 3000
 
-bash
-Copiar código
+**Em seguida, inicie o Frontend:**
+```bash
 cd CozyLoops_FrontEnd
-npm start
-O front-end será executado na porta 3001.
+npm run dev
+```
+> O frontend será executado na porta 3001
+
+### 4. Acessar a Aplicação
+
+Abra seu navegador e acesse: `http://localhost:3001`
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+CozyLoops_FrontEnd/
+├── public/                    # Arquivos estáticos
+│   ├── icons/
+│   │   └── favicon.ico     
+│   ├── images/
+│   │   ├── banner.png        
+│   │   ├── laura.png         
+│   │   └── log-semfundo.png  
+│   └── videos/               # Vídeos dos criadores de conteúdo
+│       ├── annaOpusckevicz.mp4
+│       ├── blogdocroche.mp4
+│       ├── croche.ro.mp4
+│       ├── encantadacrochetaria.mp4
+│       ├── franAluap.mp4
+│       ├── gabrielLacerda.mp4
+│       ├── juSanches.mp4
+│       ├── luanajaworski.mp4
+│       ├── mariecastrodiy.mp4
+│       ├── porsimonecarvalho.mp4
+│       └── tainaMacedo.mp4
+├── src/
+│   ├── middleware.js        
+│   ├── app/                  # Páginas da aplicação (App Router)
+│   │   ├── globals.css       
+│   │   ├── layout.js         
+│   │   ├── not-found.jsx     
+│   │   ├── not-found.module.css
+│   │   ├── home/
+│   │   │   ├── page.jsx      # Página inicial
+│   │   │   └── Home.module.css
+│   │   ├── inspiracoes/
+│   │   │   ├── page.jsx      # Página de inspirações
+│   │   │   └── Inspiracoes.module.css
+│   │   ├── produtos/
+│   │   │   ├── page.jsx      # Página de produtos
+│   │   │   ├── Produtos.module.css
+│   │   │   └── [id]/         # Rota dinâmica para produto específico
+│   │   │       ├── page.jsx
+│   │   │       └── [id].module.css
+│   │   └── sobre/
+│   │       ├── page.jsx      # Página sobre
+│   │       └── Sobre.module.css
+│   ├── components/           # Componentes reutilizáveis
+│   │   ├── Card.jsx      
+│   │   ├── CardSocial.jsx   
+│   │   ├── Header.jsx       
+│   │   ├── Inspiracao.jsx   
+│   │   └── Video.jsx       
+│   ├── data/                # Dados estáticos da aplicação
+│   │   ├── inspirations.js  
+│   │   └── videos.js        
+│   └── styles/              # Estilos CSS módulos dos componentes
+│       ├── Card.module.css
+│       ├── CardSocial.module.css
+│       ├── Header.module.css
+│       ├── Inspiracao.module.css
+│       └── Video.module.css
+├── eslint.config.mjs      
+├── jsconfig.json          
+├── next.config.mjs        
+├── package.json           
+└── README.md            
+```
+
+---
+
+## 👥 Autores
+
+- **Laura** - [imlaurinhaaa](https://github.com/imlaurinhaaa)
+
+---
+
+**✨ Transforme sua paixão pelo crochê em uma jornada inspiradora com o Cozy Loops!**
