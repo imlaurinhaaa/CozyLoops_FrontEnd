@@ -144,3 +144,30 @@
         gap: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .text {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .influencerList {
+        flex-direction: column;
+        width: 90%;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    .button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    .videoList {
+        width: 90%;
+        gap: 1.5rem;
+    }
+    .button {
+        text-align: center;
+    }
+}

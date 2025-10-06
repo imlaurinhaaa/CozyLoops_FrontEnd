@@ -108,3 +108,20 @@
         gap: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .input {
+        width: 100%;
+    }
+    .search {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .button {
+        width: 100%;
+        padding: 16px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+}

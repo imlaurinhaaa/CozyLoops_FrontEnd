@@ -53,3 +53,33 @@
         width: 80%;
     }
 }
+
+@media (max-width: 768px) {
+    .introduction {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .meSection {
+        align-items: center;
+        max-width: 90%;
+        text-align: center;
+    }
+    .socialList {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image {
+        width: 30rem;
+        height: auto;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .text {
+        font-size: 1rem;
+        text-align: center;
+    }
+}   

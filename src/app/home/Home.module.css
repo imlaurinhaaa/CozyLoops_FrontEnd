@@ -126,6 +126,36 @@
         margin-bottom: 5rem;
         margin-top: 2rem;
     }
+}
 
+@media screen and (max-width: 767px) {
+    .banner {
+        margin-top: 1.5rem;
+    }
+
+    .bannerImage {
+        width: 90%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .text {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .inspirationList {
+        width: 90%;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .videoList {
+        width: 100%;
+        gap: 2rem;
+    }
 }
 

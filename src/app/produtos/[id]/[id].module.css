@@ -123,5 +123,32 @@
     padding: 1rem;
     list-style: none;
     border-radius: 12px;
-    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 1.5rem 1rem;
+        width: 95%;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .productImage {
+        max-width: 100%;
+    }
+
+    .back {
+        width: 30px;
+        height: auto;
+        margin-right: 1rem;
+    }
 }
